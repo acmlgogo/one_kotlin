@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/detail_margin_horizon"
+        android:layout_marginRight="@dimen/detail_margin_horizon"
+        android:text="@string/commentList"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="70dp"
+        android:layout_height="5dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="@dimen/detail_margin_horizon"
+        android:layout_marginRight="@dimen/detail_margin_horizon"
+        android:layout_marginTop="10dp"
+        android:background="#000" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_comments"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content" />
+</merge>

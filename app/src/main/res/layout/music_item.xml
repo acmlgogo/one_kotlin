@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_item">
+
+    <TextView
+        android:id="@+id/tv_climate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="- 音乐 -"
+        android:textColor="#c5c5c5" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_climate"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:text="跟陌生人说话跟陌生人说话跟陌生人说话跟陌生人说话跟陌生人说话跟陌生人说话跟陌生人说话跟陌生人说话跟陌生人说话"
+        android:textColor="#434343"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:singleLine="true"
+        android:text="文/鲁敏"
+        android:textColor="#434343" />
+
+    <com.storm.cftest.ui.CircleImageView
+        android:id="@+id/music_img"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/tv_author_name"
+        android:layout_centerHorizontal="true"
+        app:border_overlay="false" />
+    <TextView
+        android:id="@+id/tv_music_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_author_name"
+        android:layout_below="@id/music_img"
+        android:paddingLeft="20dp"
+        android:paddingTop="@dimen/dp_10"
+        android:singleLine="true"
+        android:text="音乐人"
+        android:textColor="#c5c5c5" />
+    <RelativeLayout
+        android:id="@+id/bottom_bar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_alignParentTop="true"
+            android:background="#eee" />
+
+        <ImageView
+            android:id="@+id/iv_collect"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/collect" />
+
+        <ImageView
+            android:id="@+id/iv_like"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_toRightOf="@id/iv_collect"
+            android:src="@drawable/like" />
+
+        <ImageView
+            android:id="@+id/iv_comment"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_toRightOf="@id/iv_like"
+            android:src="@drawable/comment" />
+
+        <TextView
+            android:id="@+id/tv_like_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:textColor="#aaa"
+            android:textSize="13sp"
+            android:text="600喜欢·78评论" />
+    </RelativeLayout>
+</RelativeLayout>

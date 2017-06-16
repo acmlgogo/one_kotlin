@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CFtest</string>
+
+    <string name="setting">设置</string>
+    <string name="introduce">关于</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="search">搜索</string>
+    <string name="action_settings">设置</string>
+    <string name="action_equalizer">排序</string>
+    <string name="action_shuffle_all">随机</string>
+    <string name="commentList">评论列表</string>
+    <string name="author">作者</string>
+    <string name="follow">关于</string>
+    <string name="share">分享</string>
+    <string name="hot_comments">以上是热门评论</string>
+    <string name="recommend">身为一个小菜鸡的我，\n很高兴与大家共同学习kotlin</string>
+    <string name="loaction">github https://github.com/acmlgogo</string>
+    <string name="issue">音乐模块影视模块，后续会逐个完善，\n希望大家能长期关注！</string>
+</resources>

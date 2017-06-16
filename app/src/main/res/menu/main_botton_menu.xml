@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home_24dp"
+        android:title="首页"></item>
+    <item
+        android:id="@+id/menu_read"
+        android:icon="@drawable/ic_chrome_reader_24dp"
+        android:title="阅读"></item>
+    <item
+        android:id="@+id/menu_music"
+        android:icon="@drawable/ic_music_24dp"
+        android:title="音乐"></item>
+    <item
+        android:id="@+id/menu_movie"
+        android:icon="@drawable/ic_movie_black_24dp"
+        android:title="影视"></item>
+
+</menu>

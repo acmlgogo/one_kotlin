@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_settings_applications_black_24dp"
+            android:title="@string/setting"></item>
+        <item
+            android:id="@+id/gaunyu"
+            android:icon="@drawable/ic_priority_high_black_24dp"
+            android:title="@string/introduce"></item>
+    </group>
+
+</menu>
