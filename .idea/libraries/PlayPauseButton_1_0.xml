@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="PlayPauseButton-1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/cb8b7c1988739be2f1676b4111d9e365d712700b/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/cb8b7c1988739be2f1676b4111d9e365d712700b/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.recruit-lifestyle/PlayPauseButton/1.0/974c5408301c4de209ba1c49932c684eabaeba0f/PlayPauseButton-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
